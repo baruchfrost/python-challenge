@@ -78,7 +78,7 @@ print(f"Greatest Decrease in Profits: {greatest_profit_decrease_row[0]} ({as_cur
 
 analysis_results = os.path.join('.', 'analysis', 'analysis_results.txt')
 with open(analysis_results, 'w') as f:
-    f.write("Financial Analysis\n----------------------------\n")
+    f.write("\nFinancial Analysis\n\n----------------------------\n")
     f.write(f"\nTotal Months: {total_months}\n")
     f.write(f"\nTotal: {as_currency(total_profit)}\n")
     f.write(f"\nAverage Change: {as_currency(average_profit_change)}\n")
